@@ -9,7 +9,12 @@ import { LogoapComponent } from './components/logoap/logoap.component';
 import { SocialesComponent } from './components/sociales/sociales.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { SobremiComponent } from './components/sobremi/sobremi.component';
-
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HardnsoftskillsComponent } from './components/hardnsoftskills/hardnsoftskills.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({ 
   declarations: [
@@ -19,12 +24,25 @@ import { SobremiComponent } from './components/sobremi/sobremi.component';
     LogoapComponent,
     SocialesComponent,
     BannerComponent,
-    SobremiComponent
+    SobremiComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    HardnsoftskillsComponent,
+    ProyectosComponent,
+    FooterComponent
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
