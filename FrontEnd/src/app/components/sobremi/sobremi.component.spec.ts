@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SobremiComponent } from './sobremi.component';
+import { SobremiComponent } from "./SobremiComponent";
 
 describe('SobremiComponent', () => {
   let component: SobremiComponent;
@@ -18,6 +18,6 @@ describe('SobremiComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).toBeTruthy(); 
   });
 });

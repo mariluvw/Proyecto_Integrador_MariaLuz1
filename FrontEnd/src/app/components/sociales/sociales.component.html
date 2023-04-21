@@ -3,5 +3,7 @@
     <a href=""><img src="../../../assets/facebookcolor.png" alt=""></a>
     <a href=""><img src="../../../assets/instagramcolor.png" alt=""></a>
     <a href=""><img src="../../../assets/githubnegro.png" alt=""></a>
-    <button type="button" class="btn btn-outline-light">INGRESO</button>
+    <button type="button" class="btn btn-outline-light"(click)="login()" *ngIf="!isLogged">INGRESO</button>
+    <button type="button" class="btn btn-outline-light"(click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+
 </div>
