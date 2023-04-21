@@ -1,3 +1,4 @@
+com\portfolio\mv\Entity\Educacion.class
 com\portfolio\mv\Interface\IPersonaService.class
 com\portfolio\mv\Security\Repository\iRolRepository.class
 com\portfolio\mv\Controller\PersonaController.class
@@ -7,11 +8,14 @@ com\portfolio\mv\Security\Entity\Rol.class
 com\portfolio\mv\Security\Dto\JwtDto.class
 com\portfolio\mv\Security\jwt\JwtTokenFilter.class
 com\portfolio\mv\Repository\RExperiencia.class
+com\portfolio\mv\Dto\dtoEducacion.class
 com\portfolio\mv\Security\Service\UsuarioService.class
 com\portfolio\mv\Entity\Experiencia.class
+com\portfolio\mv\Controller\CEducacion.class
 com\portfolio\mv\Security\Dto\NuevoUsuario.class
 com\portfolio\mv\Security\Service\UserDetailsImpl.class
 com\portfolio\mv\Service\ImpPersonaService.class
+com\portfolio\mv\Service\Seducacion.class
 com\portfolio\mv\MvApplication.class
 com\portfolio\mv\Security\Controller\AuthController.class
 com\portfolio\mv\Security\MainSecurity.class
@@ -22,6 +26,7 @@ com\portfolio\mv\Security\Service\RolService.class
 com\portfolio\mv\Entity\Persona.class
 com\portfolio\mv\Security\Entity\Usuario.class
 com\portfolio\mv\Repository\IPersonaRepository.class
+com\portfolio\mv\Repository\REducacion.class
 com\portfolio\mv\Security\Dto\LoginUsuario.class
 com\portfolio\mv\Security\Repository\iUsuarioRepository.class
 com\portfolio\mv\Security\jwt\JwtProvider.class
