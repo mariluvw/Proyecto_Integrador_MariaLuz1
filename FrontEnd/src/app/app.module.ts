@@ -12,17 +12,21 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardnsoftskillsComponent } from './components/hardnsoftskills/hardnsoftskills.component';
-import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component'; 
 import { FooterComponent } from './components/footer/footer.component';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { SobremiComponent } from './components/sobremi/sobremi.component';
 import { LoginComponent } from './components/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InterceptorProvider, InterceptorService } from './service/interceptor-service';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion/editeducacion.component';
+import { NewSkillComponent } from './components/hardnsoftskills/new-skill.component';
+import { EditSkillComponent } from './components/hardnsoftskills/editskill.component';
+import { NewProyectoComponent } from './components/proyectos/new-proyecto/new-proyecto.component';
+import { EditProyectoComponent } from './components/proyectos/edit-proyecto/edit-proyecto.component';
 
 @NgModule({ 
   declarations: [
@@ -42,7 +46,12 @@ import { EditeducacionComponent } from './components/educacion/editeducacion/edi
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
-    EditeducacionComponent
+    EditeducacionComponent,
+    NewSkillComponent,
+    EditSkillComponent,
+    NewProyectoComponent,
+    EditProyectoComponent,
+    
     
   ],
   imports: [
